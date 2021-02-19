@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.login( "ODExMDg2NjI1NTc2NTgzMTc4.YCtFSA.G8WfBxfllVZ4ry1lJTXwCL2LSIw");
+client.login( "token");
 const Stocks = require("stocks.js"); //link bot.js with the API
 const stocks = new Stocks('1SK1E2IFS37E41MU'); // replace XXXX with your API Key
 
