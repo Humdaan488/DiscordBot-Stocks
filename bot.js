@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 client.login( "token");
 const Stocks = require("stocks.js"); //link bot.js with the API
-const stocks = new Stocks('1SK1E2IFS37E41MU'); // replace XXXX with your API Key
+const stocks = new Stocks('API key'); // replace XXXX with your API Key
 
 console.log("Let's get this show on the road");
 
